@@ -16,7 +16,8 @@ class App extends Component {
       <div className="App">
         <PieChartSvg data={list} color={['#0073CC', '#20CFAF']} unit="% " />
         <h1 className="App-title">
-          You can get more examples <a href="https://github.com/ludejun/Deep-Viz-Website">here</a>
+          You can get more examples{' '}
+          <a href="https://ludejun.github.io/Deep-Viz-Website/#/main/introduction">here</a>
         </h1>
       </div>
     );
